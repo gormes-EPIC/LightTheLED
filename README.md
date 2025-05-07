@@ -25,6 +25,10 @@
 
 ## Your Task: Complete Survival Mode or Hardcore Mode
 
+
+https://github.com/user-attachments/assets/527c8a38-957d-4aa5-ac06-ae0c03985eba
+
+
 1. **Survival Mode** is best for students who are new to Raspberry Pis and circuits. This is the best fit for most students. 
 2. **Hardcore Mode** is best for students who are already familiar with Raspberry Pi's or have taken Introduction to Electronics at EPIC before.
 
