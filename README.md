@@ -47,7 +47,8 @@
 		- Turn off your Pi when connecting cables to the GPIO ports.
 		- Use a resistor, the LED will consumer as much voltage as it can (and explode!). This may damage your Pi, you or your classmates.
 		- Do not bend the GPIO pins. Once placing your T-Cobbler onto the Pi, you should not remove it.
-	- ![Screenshot from 2024-11-17 13-23-48](https://github.com/user-attachments/assets/c71945e4-6e6b-4d4d-b5fb-ae7357abd337)4. Open the folder you created during the last lab and create a new file `light.py`. Use the resources above to write a program to turn on pin 18 (which should turn on your light, if wired correctly). Your program should turn the light on, wait a few seconds, then turn the light off.
+	- ![Screenshot from 2024-11-17 13-23-48](https://github.com/user-attachments/assets/c71945e4-6e6b-4d4d-b5fb-ae7357abd337)
+4. Open the folder you created during the last lab and create a new file `light.py`. Use the resources above to write a program to turn on pin 18 (which should turn on your light, if wired correctly). Your program should turn the light on, wait a few seconds, then turn the light off.
 5. When you are done, take a video of your LED lighting up. Then upload your video and your code to GitHub. 
 
 - [ ] Upload your video and your code to GitHub
