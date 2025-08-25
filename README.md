@@ -43,9 +43,11 @@ https://github.com/user-attachments/assets/527c8a38-957d-4aa5-ac06-ae0c03985eba
 	2. We trying to solve for required resistance(which we will apply with a resistor), so reorganize the function to solve for resistance. 
 	3. Next, the voltage through the function is equal to $V_{supply} - V_{forward}$. Replace $V$ in the function with  $V_{supply} - V_{forward}$.
 	4. The $V_{supply}$ provided by the GPIO pins is 3.3V. 
-	5. Research 5mm LED's to find their forward voltage and safe current. Then plug the values into your function. Remember to convert to volts and amps!
-	6. Solve for resistance to find the required resistor. You must select a resistor with **the resistance you solved for or greater** or your LED will explode. 
-	7. Check your work with Ormes before moving forward.
+	5. Research 5mm LED's to find their forward voltage and safe current on Sparkfun.
+ 	6. We only want about half of the maximum current to be applied to the LED, so half your safe current value.
+    7. Then plug the values into your function. Remember to convert to volts and amps!
+	8. Solve for resistance to find the required resistor. You must select a resistor with **the resistance you solved for or greater** or your LED will explode. 
+	9. Check your work with Ormes before moving forward.
 3. Use the above resources, to build your circuit. Connect the light to pin 18. It should look like the picture below.
 	- **Warning!** The following could permanently damage your Pi if you do not heed the warnings below.
 		- Turn off your Pi when connecting cables to the GPIO ports.
@@ -67,7 +69,9 @@ https://github.com/user-attachments/assets/527c8a38-957d-4aa5-ac06-ae0c03985eba
 	2. We trying to solve for required resistance(which we will apply with a resistor), so reorganize the function to solve for resistance. 
 	3. Next, the voltage through the function is equal to $V_{supply} - V_{forward}$. Replace $V$ in the function with  $V_{supply} - V_{forward}$.
 	4. The $V_{supply}$ provided by the GPIO pins is 3.3V. 
-	5. Research 5mm LED's to find their forward voltage and safe current. Then plug the values into your function. Remember to convert to volts and amps!
+	5. Research 5mm LED's to find their forward voltage and safe current on Sparkfun.
+ 	6. We only want about half of the maximum current to be applied to the LED, so half your safe current value.
+    7. Then plug the values into your function. Remember to convert to volts and amps!
 	6. Solve for resistance to find the required resistor. You must select a resistor with **the resistance you solved for or greater** or your LED will explode. 
 	7. Check your work with Ormes before moving forward.
 3. Use the above resources, to build your circuit. Connect the light to pin 18. It should look like the picture below.
