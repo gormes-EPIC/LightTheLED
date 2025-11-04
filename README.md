@@ -1,5 +1,4 @@
-
-# Lab 4: Light the LED
+# Light the LED
 
 ## Objective 
 
@@ -19,9 +18,7 @@
 
 ## Resources You Will Need
 
-- https://thepihut.com/blogs/raspberry-pi-tutorials/27968772-turning-on-an-led-with-your-raspberry-pis-gpio-pins 
-- https://projects.raspberrypi.org/en/projects/rpi-connect-led
-- See Attached PDF on Google Classroom for more explicit instructions
+- https://gpiozero.readthedocs.io/en/latest/recipes.html#led
 
 ## Your Task: Complete Survival Mode or Hardcore Mode
 
@@ -48,7 +45,7 @@ https://github.com/user-attachments/assets/527c8a38-957d-4aa5-ac06-ae0c03985eba
     7. Then plug the values into your function. Remember to convert to volts and amps!
 	8. Solve for resistance to find the required resistor. You must select a resistor with **the resistance you solved for or greater** or your LED will explode. 
 	9. Check your work with Ormes before moving forward.
-3. Use the above resources, to build your circuit. Connect the light to pin 18. It should look like the picture below.
+3. **Use the above resource** to build your circuit. Connect the light to pin 18. It should look like the picture below.
 	- **Warning!** The following could permanently damage your Pi if you do not heed the warnings below.
 		- Turn off your Pi when connecting cables to the GPIO ports.
 		- Use a resistor, the LED will consumer as much voltage as it can (and explode!). This may damage your Pi, you or your classmates.
@@ -74,7 +71,7 @@ https://github.com/user-attachments/assets/527c8a38-957d-4aa5-ac06-ae0c03985eba
     7. Then plug the values into your function. Remember to convert to volts and amps!
 	6. Solve for resistance to find the required resistor. You must select a resistor with **the resistance you solved for or greater** or your LED will explode. 
 	7. Check your work with Ormes before moving forward.
-3. Use the above resources, to build your circuit. Connect the light to pin 18. It should look like the picture below.
+3. Use the above resource, to build your circuit. Connect the light to pin 18. It should look like the picture below.
 	- **Warning!** The following could permanently damage your Pi if you do not heed the warnings below.
 		- Turn off your Pi when connecting cables to the GPIO ports.
 		- Use a resistor, the LED will consumer as much voltage as it can (and explode!). This may damage your Pi, you or your classmates.
@@ -99,10 +96,7 @@ https://github.com/user-attachments/assets/527c8a38-957d-4aa5-ac06-ae0c03985eba
 
 ## Additional Resources
 
-- http://codefoster.com/pi-basicgpio/    # Basics of how Pi GPIO's work
 - https://embeddedcomputing.com/technology/processing/interface-io/quick-start-raspberry-pi-gpio-terminal-interface # Controlling GPIO with terminal
-- https://www.anintegratedworld.com/how-to-turn-on-a-led-with-a-raspberry-pi/  # Another tutorial
-- https://www.ics.com/blog/control-raspberry-pi-gpio-pins-python # Python Tutorial
 
 ## Rubric
 
